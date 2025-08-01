@@ -40,13 +40,6 @@ This portal combines clean full-stack architecture with a standout **gaming-them
 
 ---
 
-## ⚙️ Setup & Run Instructions
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Soumya880/intern-portal.git
-cd intern-portal
 
 ## Screenshots
 
@@ -55,6 +48,20 @@ cd intern-portal
 
 ### Dashboard Page
 ![Dashboard Page](assets/dashboard.png)
+
+---
+
+## ⚙️ Setup & Run Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Soumya880/intern-portal.git
+cd intern-portal
+
+---
+
+
 
 ### Leaderboard Page
 ![Leaderboard Page](assets/leaderboard.png)
