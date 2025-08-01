@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🏆 Leaderboard</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4429/4429790.png" />
+</head>
+<body>
+
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <div class="dashboard-wrap leaderboard-container">
+    <h1 class="glow-title">🏆 Top Interns</h1>
+
+    <ul id="leaderboardList">
+      <li>Soumya Singh – ₹7,500</li>
+      <li>Aditi Roy – ₹6,200</li>
+      <li>Manav Jain – ₹5,800</li>
+      <li>Riya Sharma – ₹5,100</li>
+      <li>Neeraj R – ₹4,950</li>
+    </ul>
+
+    <a href="dashboard.html">
+      <button class="glow-btn">🔙 Back to Dashboard</button>
+    </a>
+  </div>
+
+  <!-- Load Particle Animation -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 60 },
+        "color": { "value": "#00ffee" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.2 },
+        "size": { "value": 3 },
+        "line_linked": {
+          "enable": true,
+          "distance": 120,
+          "color": "#00ffee",
+          "opacity": 0.3,
+          "width": 1
+        },
+        "move": { "enable": true, "speed": 2 }
+      },
+      "interactivity": {
+        "events": { "onhover": { "enable": true, "mode": "repulse" } }
+      },
+      "retina_detect": true
+    });
+  </script>
+
+</body>
+</html>

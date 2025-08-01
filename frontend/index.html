@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎮 Intern Login</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4429/4429790.png" />
+</head>
+<body>
+
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <div class="dashboard-wrap">
+    <h1 class="glow-title">🚀 Login to Intern Arena</h1>
+
+    <div class="card">
+      <input type="text" placeholder="Gamer Tag / Intern ID" required />
+      <input type="password" placeholder="Secret Code (Password)" required />
+      <a href="dashboard.html">
+        <button class="glow-btn">🎮 Enter Dashboard</button>
+      </a>
+    </div>
+  </div>
+
+  <!-- Load Particle Animation -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 60 },
+        "color": { "value": "#00ffee" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.2 },
+        "size": { "value": 3 },
+        "line_linked": {
+          "enable": true,
+          "distance": 120,
+          "color": "#00ffee",
+          "opacity": 0.3,
+          "width": 1
+        },
+        "move": { "enable": true, "speed": 2 }
+      },
+      "interactivity": {
+        "events": { "onhover": { "enable": true, "mode": "repulse" } }
+      },
+      "retina_detect": true
+    });
+  </script>
+
+</body>
+</html>
